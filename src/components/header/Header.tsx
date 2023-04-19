@@ -15,7 +15,7 @@ const Header = () => {
       <StyledHeader>
         <StyledHeaderBody>
           <StyledLogoWrap>
-            <Logo>SHADOW</Logo>
+            <Logo>URBWEAR</Logo>
           </StyledLogoWrap>
           <StyledButtonsWrap>
             <DefaultButton onClick={() => console.log("WOMAN")}>
@@ -24,11 +24,11 @@ const Header = () => {
             <DefaultButton onClick={() => console.log("MAN")}>
               MAN
             </DefaultButton>
-            <DefaultButton onClick={() => console.log("KIDS")}>
-              KIDS
-            </DefaultButton>
             <DefaultButton onClick={() => console.log("COLLECTIONS")}>
               COLLECTIONS
+            </DefaultButton>
+            <DefaultButton onClick={() => console.log("SALE")}>
+              SALE
             </DefaultButton>
           </StyledButtonsWrap>
           <StyledIconsWrap>

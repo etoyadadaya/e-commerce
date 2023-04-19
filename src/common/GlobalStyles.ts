@@ -1,6 +1,17 @@
 import {createGlobalStyle} from "styled-components";
 
+import IncompleetaWoff from "../../public/fonts/IncompleetaLight.woff";
+import IncompleetaWoff2 from "../../public/fonts/IncompleetaLight.woff2";
+
 const GlobalStyles = createGlobalStyle`
+  @font-face {
+    font-family: "Incompleeta";
+    src: local('Incompleeta Font'), local('Incompleeta'),
+    url(${IncompleetaWoff2}) format('woff2'),
+    url(${IncompleetaWoff}) format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
   html,
   body,
   #root {
